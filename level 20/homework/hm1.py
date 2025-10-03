@@ -253,8 +253,8 @@ while From <= to:
 #     დაპრინტე --> aqedan moshordi
 
 # სახელისა და გვარის შენახვა
-my_name = "Giga"
-my_surname = "Lomidze"
+my_name = "nika"
+my_surname = "zarnadze"
 
 # მომხმარებლისგან სახელის მიღება
 user_name = input("შეიყვანე შენი სახელი: ")

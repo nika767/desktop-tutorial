@@ -46,7 +46,7 @@ else:
 
 #----------------------password-guesser----------------------#
 # სწორი პაროლი
-Pass = "modzalade"
+Pass = "zarnadze"
 
 #დანებება
 surrend = "nah strong password"

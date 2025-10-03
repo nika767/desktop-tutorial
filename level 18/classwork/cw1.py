@@ -56,7 +56,7 @@ else:
 #   დაპრინტეთ სალამი მომხმარებელო
 
 Name = "admin"
-Pass = "adminpassword123"
+Pass = "zarna123"
 
 name = input("Enter your name:")
 

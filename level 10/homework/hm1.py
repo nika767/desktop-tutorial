@@ -68,7 +68,7 @@ for i in range(13):
 
 i = 0 
 while i < 10:
-    print("გიგა")
+    print("nika")
     i = i + 1
 
 

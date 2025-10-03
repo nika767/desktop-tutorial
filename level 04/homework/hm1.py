@@ -62,7 +62,7 @@ print(type(temperature)) # <class 'float'>
 # 4)
 
 # ცვლადებში ვინახავთ განსხვავებული ტიპის მონაცემებს
-name = "Giga"        # str ტიპი (ტექსტი)
+name = "nika"        # str ტიპი (ტექსტი)
 age = 18             # int ტიპი (მთელი რიცხვი)
 height = 1.82        # float ტიპი (ათწილადი რიცხვი)
 
