@@ -61,13 +61,12 @@ print("ლუწი რიცხვების ჯამია:", sum_even)
 
 
 # 6)
+words = ["apple", "banana", "avocado", "pear", "Almond", "apricot", "grape"]
 
+for w in words:
+    if len(w) > 0 and w[0] == "a":
+        print(w)
 
-words = ["apple", "banana", "avocado", "grape", "apricot", "mango"]
-
-for i in words:
-    if i.startswith("a"):
-        print(i)
 
 
 # 7).
@@ -96,7 +95,13 @@ for i in numbers:
 
 
 # 9)
+# მომხმარებელს შემოატანინე სიტყვა
+word = input("შეიყვანე სიტყვა: ")
 
+# for ციკლით დაბეჭდე თითოეული ასო ცალ-ცალკე
+
+for i in word:
+    print(i)
 
 
 

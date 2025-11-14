@@ -18,7 +18,7 @@ print(list)
 # შეცვალე ბოლო სამი ელემენტი სიით ["x", "y", "z"].
 
 list1 = ["a", "b", "c", "d", "e", "f"]
-list1[3:] = ["x", "y", "z"]
+list1 [4:6]= ["x", "y", "z"]
 print(list1)
 
 
@@ -26,7 +26,7 @@ print(list1)
 # შეცვალე ინდექსებზე 2-დან 5-მდე ელემენტები სიით ["purple", "orange"].
 
 list2 = ["red", "green", "blue", "yellow", "black", "white"]
-list2[2:] = ["purple", "orange"]
+list2[2:5]= ["purple", "orange"]
 print(list2)
 
 
@@ -34,7 +34,7 @@ print(list2)
 # შეცვალე მთლიანი სია შემდეგი სიით -->  ["red", "green", "blue", "yellow", "black", "white"]
 
 list3 = ["გიორგი" , "ირმა" , "საბა" ]
-list3 = ["red", "green", "blue", "yellow", "black", "white"]
+list3 [0:3]= ["red", "green", "blue", "yellow", "black", "white"]
 print(list3)
 
 
@@ -52,7 +52,7 @@ else:
 
 numbers1 = [5, 8, 13, 22, 9, 10]
 
-if numbers[3] % 2 == 0:
+if numbers [0:3]% 2 != 0:
     print("Even number")
 else:
     print("Odd number")
@@ -63,9 +63,9 @@ else:
 
 numbers2 = [5, 8, 13, 22, 9, 60]
 
-if numbers2[-1] % 2 == 0 and numbers2[-1] >50 :
+if numbers2 % 2 != 0 and numbers2>50 :
     print("ეს რიცხვი არის ლუწი და მეტი 50 ზე")
-elif numbers2[-1] % 2 != 0 and numbers2[-1] < 50:
+elif numbers2 % 2 != 0 and numbers2 < 50:
     print("ეს რიცხვი არის კენტი და ნაკლები 50 ზე")
 
 
@@ -74,9 +74,9 @@ elif numbers2[-1] % 2 != 0 and numbers2[-1] < 50:
 
 numbers3 = [5, 8, 13, 22, 9, 10]
 
-if numbers3[5] %2 == 0 or numbers3[5] > 100:
+if numbers3 %2 == 0 or numbers3> 100:
     print("even or more than 100")
-if numbers3[3] %2 != 0 or numbers3[3] < 100:
+if numbers3 %2 != 0 or numbers3 < 100:
     print("odd or less than 100")
 
 
