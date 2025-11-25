@@ -77,7 +77,7 @@ colors.pop(2)
 print(colors)
 
 #14)pop ის დახმარებით სიიდან ამოშალე მომხმარებლის მიერ შემოტანილ რიცხვზე(ინდექსზე) მდგომი ელემენტი
-num = int(input("შეიყვანე რიცხვი 0 დან 3 მდე: "))
+num = input(int("შეიყვანე რიცხვი 0 დან 3 მდე: "))
 items = ["pen", "pencil", "book", "eraser"]
 items.pop(num)
 print(items)
@@ -86,6 +86,7 @@ print(items)
 fruits = ["apple", "banana", "orange"]
 fruits.remove("banana")
 print(fruits)
+
 #16)remove()-ით წაშალე 3 და დააკვირდი, მხოლოდ პირველი 3 იანი შაიშლება.
 nums = [3, 5, 3, 7]
 nums.remove(3)
