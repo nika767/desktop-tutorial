@@ -1,0 +1,21 @@
+.text {
+    font-size: 50px;
+    border: 3px solid green;
+    color: yellow;
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    width: 100px;
+    height: 60px;
+    background-color: red;
+    color: yellow;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}

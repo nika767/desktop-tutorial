@@ -84,7 +84,7 @@ print(names)
 # 15)items = ["pen", "pencil", "eraser"] pop()-ით წაშალე ბოლო ელემენტი
 
 items = ["pen", "pencil", "eraser"]
-items.pop()
+items.pop("eraser")
 print(items)
 
 # 16)colors = ["red", "green", "blue"] remove()-ით წაშალე "green"
@@ -107,7 +107,7 @@ print(foods)
 # 18)შექმენი სია nums = [10, 20, 30]. მომხმარებელს შემოატანინე მთელი რიცხვი. თუ რიცხვი nums სიაშია, დაბეჭდე "Already in list", თუ არა — append()-ით დაამატე 40 და დაბეჭდე სია.
 
 nums = [10, 20, 30]
-user_num = int(input("Enter number: "))
+user_num = int(input("Enter number:"))
 if user_num in nums:
     print("Already in list")
 else:
@@ -119,13 +119,3 @@ letters = ["a", "b", "c"]
 user_letter = input("Enter a letter: ")
 letters.insert(2, user_letter)
 print(letters)
- 
-# 20)შექმენი სია values = [1, 2, 3, 4]. მომხმარებელს შემოატანინე ინდექსი. თუ ინდექსი სიის ფარგლებშია, pop()-ით ამოშალე შესაბამისი ელემენტი; თუ არა, დაბეჭდე "Index out of range". ბოლოს დაბეჭდე სია.
-
-values = [1, 2, 3, 4]
-index = int(input("Enter index: "))
-if 0 <= index <= len(values):
-    values.pop(index)
-else:
-    print("Index out of range")
-print(values)

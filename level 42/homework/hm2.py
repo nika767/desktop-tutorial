@@ -1,3 +1,14 @@
+
+# 20)შექმენი სია values = [1, 2, 3, 4]. მომხმარებელს შემოატანინე ინდექსი. თუ ინდექსი სიის ფარგლებშია, pop()-ით ამოშალე შესაბამისი ელემენტი; თუ არა, დაბეჭდე "Index out of range". ბოლოს დაბეჭდე სია.
+
+values = [1, 2, 3, 4]
+index = int(input("Enter index: "))
+if 0 <= index <= len(values):
+    values.pop(index)
+else:
+    print("Index out of range")
+print(values)
+
 #21)
 pets = ["cat", "dog", "hamster"]
 name = input("შეიყვანე შინაური ცხოველის სახელი: ")
